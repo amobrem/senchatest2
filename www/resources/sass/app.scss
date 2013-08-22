@@ -1,35 +1,19 @@
-/**
- * This is the custom CSS uses in the getting_started example
- */
+@import 'sencha-touch/default/all';
 
-.home {
-    text-align: center;
-}
+// You may remove any of the following modules that you
+// do not use in order to create a smaller css file.
+@include sencha-panel;
+@include sencha-buttons;
+@include sencha-sheet;
+@include sencha-picker;
+@include sencha-tabs;
+@include sencha-toolbar;
+@include sencha-toolbar-forms;
+@include sencha-indexbar;
+@include sencha-list;
+@include sencha-layout;
+@include sencha-carousel;
+@include sencha-form;
+@include sencha-msgbox;
 
-.home h1 {
-    font-weight: bold;
-    font-size: 1.2em;
-}
-
-.home p {
-    color: #666;
-    font-size: 0.8em;
-    line-height: 1.6em;
-    margin: 10px 20px 20px 20px;
-}
-
-.home img {
-    margin-top: -10px;
-}
-
-.home h2 {
-    color: #999;
-    font-size: 0.7em;
-}
-
-.blog p {
-    color: #555;
-    padding: 20px 20px 0 20px;
-    font-size: 1em;
-    line-height: 1.4em;
-}
+// Your custom code goes here...
